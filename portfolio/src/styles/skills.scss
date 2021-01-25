@@ -1,0 +1,25 @@
+// $homecolor:#24253f;
+// $heading:#C14340;
+@import './color.scss';
+// Skills
+.skills{
+    width:100%;
+    min-height: 100vh;
+    background-color: $homecolor;
+    padding:10px;
+  }
+  .skill-header{
+    background-color: $homecolor !important;
+    color: $heading;
+  }
+  .skill-icon-tab{
+    color:$heading;
+  }
+  .skill-icons{
+    color: $heading;
+    height:120px;
+    width:120px;
+  }
+  .progress-bar{
+    width:80%;
+  }

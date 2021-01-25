@@ -1,0 +1,19 @@
+@import './color.scss';
+.navigation{
+  position:fixed;
+  top:1px;
+  left:0px;
+  width:100%;
+  z-index: 1;
+}
+.nav{
+    color: white;
+    background-color: $nav-color;
+  }
+  .navbar-right{
+    justify-content: space-around;
+  }
+  .navbar-right li a{
+    color:#fff;
+    margin:10px;
+  }

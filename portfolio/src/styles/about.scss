@@ -1,0 +1,20 @@
+@import './color.scss';
+.about{
+    background-color: $nav-color;
+    width:100%;
+    min-height:100vh;
+    color: #fff;
+  }
+  .about-header{
+    background-color: $nav-color !important;
+    color: $heading;
+  }
+  .about-section{
+    color:#fff;
+    border: 1px solid $heading;
+    // box-shadow: 10px 5px 10px 10px #384477;
+  }
+  .education-section{
+    margin-top: 30px;
+  }
+  

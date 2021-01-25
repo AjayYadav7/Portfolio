@@ -1,0 +1,35 @@
+@import './color.scss';
+.services{
+    min-height: 100vh;
+    background-color: $nav-color;
+  }
+  .services-heading{
+    background-color:$nav-color !important;
+    color:$heading;
+    h3{
+      color: red;
+    }
+  }
+  .services-box{
+    padding:20px;
+    // background-color: $homecolor;
+    border:1px solid $heading;
+    color:#fff;
+    margin:20px;
+    height: 220px;
+    p{
+      font-size: 16px;
+      color: #dfdfdf;
+    }
+  }
+  .icons{
+    font-size: 40px;
+    color:$services-icon-color;
+    margin-bottom: 15px;
+  }
+  .services-box-header{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  

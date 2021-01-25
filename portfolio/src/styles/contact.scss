@@ -1,0 +1,26 @@
+@import './color.scss';
+.contact{
+    background-color: $homecolor;
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+  }
+  .contact-header{
+    background-color: $homecolor !important;
+    color: $heading;
+  }
+  .form{
+    width:60%;
+    margin:0px auto;
+  }
+  
+  #email, #name, #msg{
+    background-color: $homecolor;
+    border: none;
+    border-bottom:1px solid red;
+  }
+  .contact-info{
+    bottom:0;
+    padding:20px; 
+  }
+  
