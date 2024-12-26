@@ -6,12 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
-/* Question */
-/* If we had same file in master and we done some changes in x branch and some changes in y, y gets merged and then x also has same kind of changes in same file how to retrieve the file to masters version file */
-/* approach */
-/* first we wil create the file and make changes in x and then other package in y merge one by one */
+
 @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
+  .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
